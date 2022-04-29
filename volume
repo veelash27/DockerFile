@@ -1,0 +1,7 @@
+FROM ubuntu
+VOLUME ["/data"]
+RUN mkdir /tmp/docker
+WORKDIR  /tmp/docker
+COPY test /data
+
+
